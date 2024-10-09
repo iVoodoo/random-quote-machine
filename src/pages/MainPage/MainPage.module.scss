@@ -1,0 +1,16 @@
+.page {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+
+  &__quote {
+    max-width: 70%;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      max-width: 90%;
+    }
+  }
+}
