@@ -3,8 +3,6 @@ import { memo } from 'react'
 import { Header } from './header/Header'
 
 const LayoutComponent = (prop) => {
-  console.log('@@@ RENDER LAYOUT')
-
   return (
     <>
       <Header />

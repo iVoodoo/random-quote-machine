@@ -5,8 +5,6 @@ import Logo from '@assets/logo.svg?react'
 import style from './Header.module.scss'
 
 const HeaderComponent = () => {
-  console.log('@@@ RENDER HEADER')
-
   return (
     <header className={`${style.header} container`}>
       <div className={style.header__inner}>
