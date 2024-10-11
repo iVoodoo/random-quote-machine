@@ -1,8 +1,52 @@
-# React + Vite
+# Random-quote-machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Приложение отоброжает различные популяреые цитаты известных личностей
 
-Currently, two official plugins are available:
+## Ссылка на приложение
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://ivoodoo.github.io/random-quote-machine/
+
+
+## Что сделано
+
+- При загрузке страницы отображатеся цитата
+-  Есть возможность выбрать другую цитату, нажав на соответствующую кнопку
+- Адаптация под мобильные устройства
+
+
+
+
+## Используемые технологии
+
+**Client:** React, JavaScript, SCSS
+
+**Code style:** ESLint, Prettier 
+
+
+
+## Запустить локально
+
+Клонируем репозиторий
+
+```bash
+  git clone https://github.com/iVoodoo/random-quote-machine.git
+```
+
+Пермещаемся в папку проекта
+
+```bash
+  cd random-quote-machine
+```
+
+Устанавливаем зависимости
+
+```bash
+  yarn install
+```
+
+Запускаем проект
+
+```bash
+  yarn dev
+```
+
